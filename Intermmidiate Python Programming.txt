@@ -1,0 +1,38 @@
+Part 1: Task Manager
+
+Create a simple task management system in Python.
+Each task should hav a name, description, duration(in minutes),
+and status(e.g., 'Pending', 'In-Progress', 'Completed').
+
+1. Initialize an emptylist named tasks.
+2. Create a function to add new task to the task list.
+   The function should take input for the task name, description,
+   and duration, strong them as a dictionary.
+3. Add six(6) tasks to the task list using the function, the newly
+   added task should be on a 'Pending' status by default.
+4. Create a function to display all tasks in a readable format.
+5. Display all tasks in the system using the function created in step 4
+
+
+Part 2: Task Status Update
+
+1. Create a function to update the status of a specific task. The fucntion
+   should take the task name as input and allow the user to update the 
+   status to 'In Progress or 'Completed'.
+2. Change the status of any two (2) tasks to 'In Progress' using the function.
+3. Change the status of another two (2) tasks to 'Completed' using the function.
+
+Part 3: Displaying the Tasks based on status
+
+1. Create a function with status as an input parameter. The function should them to 
+   display all the task names and duration based on the status selected. After
+   displaying the list of tasks, display also the total duration time of the tasks
+   listed.
+2. Display all the 'Pending' tasks.
+3. Display all the 'In-Progress' tasks.
+4. Display all the 'Completed' tasks.
+
+
+
+
+Reference: https://github.com/usman010803/Task_Management_System/blob/master/main.py
